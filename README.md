@@ -48,6 +48,8 @@
 4. **启用 Actions**
   - 进入 `Actions` 选项卡
   - 启用 Actions，工作流将每 6 小时自动运行一次
+5. ** Actions自动运行
+  60天内无提交的仓库自动任务会被禁用，需要使用保活任务或者手动commit.
 
 > ⚠️ 关于签到时间的特别说明：
 > - Github Action 可能会[出现延迟](https://docs.github.com/zh/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)，所以本定时只能满足 “当天一定会签到”，无法精准控制签到时间。
