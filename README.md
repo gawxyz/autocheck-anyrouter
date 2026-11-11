@@ -85,7 +85,7 @@ on:
 
 jobs:
   checkin:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: 执行签到
         uses: rakuyoMo/autocheck-anyrouter@v1
